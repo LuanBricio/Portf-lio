@@ -1,0 +1,13 @@
+img {
+    width: 100vh;
+    border-radius: 5vh;
+}
+
+img:hover {
+    width: 110vh;
+}
+
+section ul {
+    display: flex;
+    flex-direction: column;
+}
