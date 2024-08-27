@@ -1,4 +1,4 @@
-# Esta é a primeira vez que estou tentando criar um portfólio prórprio.
+# Esta é a primeira vez que estou criando um portfólio prórprio.
 
 Tela de home 
 <br>
