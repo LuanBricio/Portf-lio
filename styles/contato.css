@@ -1,0 +1,14 @@
+.card {
+    width: 200px;
+    height: 400px;
+    background-color: rgb(81, 81, 81);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 12vh;
+    height: 20vh;
+    border-radius: 1vh;
+}
