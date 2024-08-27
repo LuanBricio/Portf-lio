@@ -11,3 +11,10 @@ section ul {
     display: flex;
     flex-direction: column;
 }
+
+@media screen and (max-width: 900px) {
+    img {
+        width: 30vh;
+        border-radius: 5vh;
+    }
+}
