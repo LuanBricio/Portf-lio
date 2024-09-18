@@ -1,3 +1,22 @@
+html,
+body {
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+h1 {
+    text-align: center;
+    font: normal 30pt Arial;
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+}
+
 img {
     width: 100vh;
     border-radius: 5vh;

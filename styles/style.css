@@ -1,53 +1,42 @@
 html,
 body {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-image: linear-gradient(90deg, rgb(0, 0, 0), rgb(144, 0, 255));
-}
-
-a {
-    text-decoration: none;
-    color: white;
-    font-size: large;
-}
-
-.meio {
-    width: 100%;
-    height: 300%;
-    margin-top: 0%;
-    padding-bottom: 25%;
-    padding-top: 25%;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    text-align: center;
+    height: 100%;
+    background-color: black;
+}
+
+body .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
-    margin-top: 0;
-    font-size: 10vh;
-    color: white;
-}
-
-.meio p {
-    font-size: larger;
-    color: white;
+    font: normal 50pt Arial;
+    color: #fff;
 }
 
 h2 {
     color: #fff;
 }
 
-p {
+.buttom {
+    text-decoration: none;
     color: #fff;
+    background-color: blueviolet;
+    width: 30vh;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30pt;
+    border-radius: 3vh;
+    margin-bottom: 20px;
 }
 
-@media screen and (max-width: 600px) {
-    h1 {
-        margin-top: 90px;
-        font-size: 7vh;
-    }
-    h2 {
-        font-size: medium;
-    }
+.buttom:hover {
+    background-color: rgb(118, 9, 220);
 }
