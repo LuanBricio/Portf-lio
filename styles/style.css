@@ -2,16 +2,38 @@ html,
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     height: 100%;
     background-color: black;
+    padding: 0;
+    margin: 0;
 }
 
-body .container {
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+.cabecalho,
+.nome {
+    margin: 10px;
+}
+
+.cabecalho {
+    cursor: pointer;
+}
+
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100%;
 }
 
 h1 {
@@ -23,20 +45,46 @@ h2 {
     color: #fff;
 }
 
-.buttom {
+.portfolio,
+.curriculo {
     text-decoration: none;
     color: #fff;
-    background-color: blueviolet;
     width: 30vh;
     height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30pt;
+    font-size: 15pt;
     border-radius: 3vh;
     margin-bottom: 20px;
 }
 
-.buttom:hover {
+.portfolio {
+    background-color: rgb(138, 43, 226);
+}
+
+.portfolio:hover {
     background-color: rgb(118, 9, 220);
+}
+
+.curriculo {
+    background-color: #525252;
+    margin-right: 10px;
+}
+
+.curriculo:hover {
+    background-color: #2c2c2c;
+}
+
+.botoes {
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+    .botoes {
+        transform: scale(0.7);
+    }
+    h2 {
+        text-align: center;
+    }
 }
