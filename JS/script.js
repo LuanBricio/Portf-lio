@@ -10,3 +10,21 @@ function type() {
 }
 
 type();
+
+let ativado = false
+
+function ativaMenu() {
+    let menu = document.getElementById('menu')
+
+
+
+    if (ativado == false) {
+        menu.style.display = 'inline'
+        ativado = true
+    } else if (ativado == true) {
+        menu.style.display = 'none'
+        ativado = false
+    }
+
+
+}
