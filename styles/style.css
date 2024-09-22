@@ -113,6 +113,45 @@ h2 {
     transition: all 0.5s;
 }
 
+.container-contato {
+    padding: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-contato div {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-radius: 5vh;
+    width: 500px;
+}
+
+.container-contato div img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.container-contato div a {
+    background-color: rgb(138, 43, 226);
+    text-decoration: none;
+    color: #fff;
+    padding: 3vh;
+    width: 70px;
+    font-size: medium;
+    text-align: center;
+    align-items: center;
+    border-radius: 4vh;
+}
+
+.container-contato div a:hover {
+    background-color: rgb(118, 9, 220);
+}
+
 @media screen and (max-width: 600px) {
     .botoes {
         transform: scale(0.7);
